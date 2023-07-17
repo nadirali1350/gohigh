@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Moovly || Interactivity</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+      body {
+        padding: 0;
+        margin: 0;
+        font-family: 'Rubik', sans-serif;
+        font-weight: 300;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- When Using multiple video's this needs to be added once -->
+    <script type="text/javascript" src="assets/main.js"></script>
+
+    <!-- When Using multiple video's this needs to be copied for each video -->
+    <div
+      style="width: 100vw; height: 100vh"
+      data-moovly-interactivity="vj3GGuqLirsnMbVoG6ZovMdkvCtaYTp7"
+    ></div>
+    <script>
+      if (!window.Moovly) {
+        window.Moovly = {};
+      }
+      if (!window.Moovly.InteractivityInstances) {
+        window.Moovly.InteractivityInstances = [];
+      }
+      window.Moovly.InteractivityInstances.push({
+        id: 'vj3GGuqLirsnMbVoG6ZovMdkvCtaYTp7',
+        videoSrc: 'assets\/0JTAXH3aQwexi4YS9aOAUIb7q3yQrOBv.mp4',
+        config: `{\"interactive\":[{\"referenceId\":null,\"type\":\"pause-point\",\"payload\":{\"time\":59.33}},{\"referenceId\":\"91c19aee0550507f8e4f\",\"type\":\"text-link-object\",\"payload\":{\"href\":\"https:\/\/internationalmetalscorp.com\/international-metals-to-expand-its-exploration-assets-in-lithium-valley-brazil\/\",\"target\":\"_blank\",\"pause\":true,\"size\":{\"width\":362,\"height\":43}}}],\"stage\":{\"width\":854,\"height\":480,\"scale\":2.25},\"fonts\":[\"https:\/\/fonts.googleapis.com\/css?family=Montserrat:400,400italic,700,700italic\"],\"stageObjects\":[{\"id\":\"91c19aee0550507f8e4f\",\"zIndex\":7,\"label\":\"CLICK HERE TO READ FULL ARTIC...\",\"type\":\"text\",\"x\":427.00000000000006,\"y\":423.00000000000006,\"flip\":{\"x\":1,\"y\":1},\"scale\":{\"x\":1,\"y\":1},\"anchor\":{\"x\":0.5,\"y\":0.5},\"rotation\":0,\"alpha\":1,\"speed\":1,\"startTime\":55.59,\"duration\":4.17,\"step\":1,\"lock\":false,\"lock_level\":\"unlocked\",\"hidden\":false,\"tint\":\"0xFFFFFF\",\"retime_strategy\":\"default\",\"propertiesOverwrite\":[],\"filters\":[],\"object_fit\":[],\"transitions\":{\"show\":{\"duration\":1,\"x\":\"current\",\"y\":\"current\",\"scale\":{\"x\":1,\"y\":1},\"rotation\":0,\"alpha\":1,\"ease\":\"Linear.easeNone\",\"step\":0,\"id\":\"typewriter_in\",\"version\":\"1.0.0\",\"label\":\"Typewriter in\"}},\"textData\":{\"color\":null,\"font\":null,\"size\":null,\"value\":\"<p>CLICK HERE TO READ FULL ARTICLE<\/p>\",\"align\":\"left\",\"listType\":null,\"letterSpacing\":null,\"background\":{\"color\":null},\"style\":{\"color\":\"#000000\",\"fontFamily\":\"Montserrat\",\"fontSize\":18.665306122448982,\"lineHeight\":0,\"textAlign\":\"left\",\"letterSpacing\":0,\"valign\":\"bottom\",\"verticalAlign\":\"center\",\"background\":{\"color\":\"0xFFFFFF\",\"alpha\":0},\"fontWeight\":700,\"fontStyle\":\"normal\"},\"lines\":[{\"text\":\"CLICK HERE TO READ FULL ARTICLE\"}],\"unformatted\":\"CLICK HERE TO READ FULL ARTICLE\",\"textStyle\":null}}]}`,
+      });
+    </script>
+  </body>
+</html>
